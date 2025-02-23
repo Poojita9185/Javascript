@@ -1,4 +1,4 @@
-import {customerDetails} from "../Javascript/Importfunctions/Classimports.js"
+import {customerDetails} from "../Importfunctions/Classimports.js"
 
 var classobj=new customerDetails()
 classobj.age(12)
@@ -8,7 +8,7 @@ classobj.middlename("Ghanta")
 
 
 //import everything
-import * as allclasses from "../Javascript/Importfunctions/Classimports.js"
+import * as allclasses from "../Importfunctions/Classimports.js"
 var classob1=new allclasses.customerDetails1()
 classob1.age(14)
 classob1.firstname("Poojita1")
